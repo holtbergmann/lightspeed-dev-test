@@ -1,0 +1,147 @@
+
+.hide{
+	display:none;
+}
+.show{
+	display:block;
+}
+.btnclass{
+    border: 1px solid;
+    border-radius: 5px;
+    width: 100px;
+    height: 47px;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    border-color: lightgray;
+}
+.modalborder {
+	border: 1px solid;
+	border-width: 9px;
+	width: 432px;
+	height: 348px;
+	border-color:#434444;
+	position:fixed;
+	left:315px;
+	top:160px;
+	z-index:999;
+	background:#FEFEFE;
+	font: -webkit-control;
+	
+}
+.closeModal{
+    position: relative;
+    left: 10px;
+    top: 11px;
+}
+.closbtnimg{
+	position: relative;
+    right: 25px;
+}
+.hline{
+	display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 1px;
+    padding: 0;
+    position:relative;
+    width:432px;
+}
+.hlinetop{
+    right: 368px;
+    bottom: 11px;
+}
+.hlinebottom{
+    right: 368px;
+    top: 43px;
+}
+.middle{
+	right: 336px;
+    position: relative;
+    margin-left: 19px;
+    margin-right: 20px;
+    font-size: 12.0pt;
+    line-height: 150%;
+    max-width: 306px;
+    top: 2px;
+}
+.innerborder{
+    width: 410px;
+    height: 327px;
+
+    position: relative;
+    left: 14px;
+    bottom: 14px;
+    border-radius: 8px;
+    border-color: grey;	
+}
+.bottomtext{
+    position: relative;
+    top: 30px;
+    right: 367px;
+    height: 80px;
+    width: 432px;
+    background-color: #F4F5F7;
+}
+.bottombtns{
+	position:relative;
+	left:259px;
+	top:21px;
+}
+.btns{
+    border-radius: 4px;
+    width: 91px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    border: solid;
+    border-width: 1px;
+    padding-top: 11px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    color: grey;  
+    
+}
+.cancelbtn{
+	position:relative;
+	right:42px;
+	bottom: 6px;
+	border-color: #bfc1c1;	
+}
+.importbtn{
+	position:relative;
+	right:26px;
+	bottom: 6px;
+	background-color:#33bce4;
+	border:none;
+	color:#FFFFFF;
+}
+.choosebtn{
+	border-radius: 4px;
+	width:100px;
+	height:22px;
+	padding: 0px 0px 0px 0px;
+}
+.chooseline{
+	padding-top:10px;
+}
+.content{
+    position: relative;
+    left: 353px;
+    top: 14px;	
+}
+.toptext{
+	font-size: 16.0pt;
+    position: relative;
+    right: 316px;
+    bottom: 38px;
+}
+input[type="file"] {
+        font-size: 12.0pt;
+    position: relative;
+    top: 14px;	
+}
+	
+	

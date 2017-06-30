@@ -1,0 +1,12 @@
+.modalborder{
+	margin: 0 auto;
+    width: 400px;
+    height: 297px;
+    padding: 20px;
+    color: white;
+    border: solid 10px;
+    border-color: #575859;
+}
+.closeModal{
+	float:right;
+}
