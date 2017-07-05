@@ -1,16 +1,20 @@
-
+body{
+	font-family: Arial;
+}
 .hide{
 	display:none;
 }
 .show{
 	display:block;
 }
+.ptr{
+	cursor: pointer;
+}
 .btnclass{
     border: 1px solid;
     border-radius: 5px;
     width: 100px;
     height: 47px;
-    cursor: pointer;
     background-color: #FFFFFF;
     border-color: lightgray;
 }
@@ -21,12 +25,10 @@
 	height: 348px;
 	border-color:#434444;
 	position:fixed;
-	left:315px;
-	top:160px;
 	z-index:999;
 	background:#FEFEFE;
 	font: -webkit-control;
-	
+\	
 }
 .closeModal{
     position: relative;
@@ -49,11 +51,11 @@
 }
 .hlinetop{
     right: 368px;
-    bottom: 11px;
+    top: 13px;
 }
 .hlinebottom{
     right: 368px;
-    top: 43px;
+    top: 66px;
 }
 .middle{
 	right: 336px;
@@ -63,7 +65,7 @@
     font-size: 12.0pt;
     line-height: 150%;
     max-width: 306px;
-    top: 2px;
+    top: 33px;
 }
 .innerborder{
     width: 410px;
@@ -77,16 +79,16 @@
 }
 .bottomtext{
     position: relative;
-    top: 30px;
+    top: 52px;
     right: 367px;
-    height: 80px;
+    height: 75px;
     width: 432px;
     background-color: #F4F5F7;
 }
 .bottombtns{
 	position:relative;
 	left:259px;
-	top:21px;
+	top:18px;
 }
 .btns{
     border-radius: 4px;
@@ -133,15 +135,48 @@
     top: 14px;	
 }
 .toptext{
-	font-size: 16.0pt;
+	font-size: 17pt;
     position: relative;
-    right: 316px;
-    bottom: 38px;
+    right: 330px;
+    top: 4px;
 }
 input[type="file"] {
-        font-size: 12.0pt;
+    font-size: 12.0pt;
     position: relative;
     top: 14px;	
 }
+.custom-file-input{
 	
+}
+a.boxclose{
+    height: 21px;
+    width: 45px;
+    background-color: #FFFFFF;
+    border: 2px solid #e3e5e8;
+    color: #e3e5e8;
+    border-radius: 23px;
+    padding-left: 27px;
+    padding-top: 17px;
+    font-size: 16pt;
+    font-family: sans-serif;
+    position: relative;
+    top: 34px;
+    left: 6px;    
+}	
+.closeposition{
+    position: relative;
+    right: 11px;
+    bottom: 6px;
+}
+.topleftcorner{
 	
+}	
+.toprightcorner{
+	
+}
+.bottomleftcorner{
+	
+}	
+.bottomrightcorner{
+	
+}

@@ -1,0 +1,1590 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal should display 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <input
+    className="ptr filepicker"
+    id="choosefile"
+    name="inputfile"
+    onChange={[Function]}
+    type="file"
+    value=""
+/>,
+  "nodes": Array [
+    <input
+      className="ptr filepicker"
+      id="choosefile"
+      name="inputfile"
+      onChange={[Function]}
+      type="file"
+      value=""
+/>,
+  ],
+  "options": Object {},
+  "renderer": null,
+  "root": ShallowWrapper {
+    "complexSelector": ComplexSelector {
+      "buildPredicate": [Function],
+      "childrenOfNode": [Function],
+      "findWhereUnwrapped": [Function],
+    },
+    "length": 1,
+    "node": <div
+      className="show"
+>
+      <div
+            className="modalborder"
+      >
+            <div>
+                  <div
+                        className="innerborder"
+                  >
+                        <div
+                              className="content"
+                        >
+                              <a
+                                    className="ptr boxclose"
+                                    id="closexbutton"
+                                    onClick={[Function]}
+                              >
+                                    <span
+                                          className="closeposition"
+                                    >
+                                          X
+                                    </span>
+                              </a>
+                              <div
+                                    className="toptext"
+                              >
+                                    Import Terms
+                              </div>
+                              <span
+                                    className="hline hlinetop"
+                              />
+                              <div
+                                    className="middle"
+                              >
+                                    Upload a CSV or plain text fle containing one term and severity level(1-3) per row separated by a comma. Max 500 lines.
+                                    <div
+                                          className="chooseline"
+                                    >
+                                          <input
+                                                className="ptr filepicker"
+                                                id="choosefile"
+                                                name="inputfile"
+                                                onChange={[Function]}
+                                                type="file"
+                                                value=""
+                                          />
+                                    </div>
+                              </div>
+                              <span
+                                    className="hline hlinebottom"
+                              />
+                              <div
+                                    className="bottomtext"
+                              >
+                                    <div
+                                          className="bottombtns"
+                                    >
+                                          <div
+                                                className="ptr btns cancelbtn"
+                                                id="canclebtn"
+                                                onClick={[Function]}
+                                          >
+                                                Cancel
+                                          </div>
+                                          <div
+                                                className="ptr btns importbtn"
+                                                id="importbtn"
+                                                onClick={[Function]}
+                                          >
+                                                Import
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
+</div>,
+    "nodes": Array [
+      <div
+        className="show"
+>
+        <div
+                className="modalborder"
+        >
+                <div>
+                        <div
+                                className="innerborder"
+                        >
+                                <div
+                                        className="content"
+                                >
+                                        <a
+                                                className="ptr boxclose"
+                                                id="closexbutton"
+                                                onClick={[Function]}
+                                        >
+                                                <span
+                                                        className="closeposition"
+                                                >
+                                                        X
+                                                </span>
+                                        </a>
+                                        <div
+                                                className="toptext"
+                                        >
+                                                Import Terms
+                                        </div>
+                                        <span
+                                                className="hline hlinetop"
+                                        />
+                                        <div
+                                                className="middle"
+                                        >
+                                                Upload a CSV or plain text fle containing one term and severity level(1-3) per row separated by a comma. Max 500 lines.
+                                                <div
+                                                        className="chooseline"
+                                                >
+                                                        <input
+                                                                className="ptr filepicker"
+                                                                id="choosefile"
+                                                                name="inputfile"
+                                                                onChange={[Function]}
+                                                                type="file"
+                                                                value=""
+                                                        />
+                                                </div>
+                                        </div>
+                                        <span
+                                                className="hline hlinebottom"
+                                        />
+                                        <div
+                                                className="bottomtext"
+                                        >
+                                                <div
+                                                        className="bottombtns"
+                                                >
+                                                        <div
+                                                                className="ptr btns cancelbtn"
+                                                                id="canclebtn"
+                                                                onClick={[Function]}
+                                                        >
+                                                                Cancel
+                                                        </div>
+                                                        <div
+                                                                className="ptr btns importbtn"
+                                                                id="importbtn"
+                                                                onClick={[Function]}
+                                                        >
+                                                                Import
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+</div>,
+    ],
+    "options": Object {},
+    "renderer": ReactShallowRenderer {
+      "_instance": ShallowComponentWrapper {
+        "_calledComponentWillUnmount": false,
+        "_compositeType": 0,
+        "_context": Object {},
+        "_currentElement": <ParseCsvModal
+          displayme="show"
+/>,
+        "_debugID": 1,
+        "_hostContainerInfo": null,
+        "_hostParent": null,
+        "_instance": ParseCsvModal {
+          "_reactInternalInstance": [Circular],
+          "context": Object {},
+          "handleCancel": [Function],
+          "handleChooseFile": [Function],
+          "handleCloseTheModal": [Function],
+          "handleImport": [Function],
+          "props": Object {
+            "displayme": "show",
+          },
+          "refs": Object {},
+          "state": Object {
+            "displayme": "show",
+            "file_path": "",
+          },
+          "updater": Object {
+            "enqueueCallback": [Function],
+            "enqueueCallbackInternal": [Function],
+            "enqueueElementInternal": [Function],
+            "enqueueForceUpdate": [Function],
+            "enqueueReplaceState": [Function],
+            "enqueueSetState": [Function],
+            "isMounted": [Function],
+            "validateCallback": [Function],
+          },
+          "upload_data": Array [],
+        },
+        "_mountOrder": 1,
+        "_pendingCallbacks": null,
+        "_pendingElement": null,
+        "_pendingForceUpdate": false,
+        "_pendingReplaceState": false,
+        "_pendingStateQueue": null,
+        "_renderedComponent": NoopInternalComponent {
+          "_currentElement": <div
+            className="show"
+>
+            <div
+                        className="modalborder"
+            >
+                        <div>
+                                    <div
+                                                className="innerborder"
+                                    >
+                                                <div
+                                                            className="content"
+                                                >
+                                                            <a
+                                                                        className="ptr boxclose"
+                                                                        id="closexbutton"
+                                                                        onClick={[Function]}
+                                                            >
+                                                                        <span
+                                                                                    className="closeposition"
+                                                                        >
+                                                                                    X
+                                                                        </span>
+                                                            </a>
+                                                            <div
+                                                                        className="toptext"
+                                                            >
+                                                                        Import Terms
+                                                            </div>
+                                                            <span
+                                                                        className="hline hlinetop"
+                                                            />
+                                                            <div
+                                                                        className="middle"
+                                                            >
+                                                                        Upload a CSV or plain text fle containing one term and severity level(1-3) per row separated by a comma. Max 500 lines.
+                                                                        <div
+                                                                                    className="chooseline"
+                                                                        >
+                                                                                    <input
+                                                                                                className="ptr filepicker"
+                                                                                                id="choosefile"
+                                                                                                name="inputfile"
+                                                                                                onChange={[Function]}
+                                                                                                type="file"
+                                                                                                value=""
+                                                                                    />
+                                                                        </div>
+                                                            </div>
+                                                            <span
+                                                                        className="hline hlinebottom"
+                                                            />
+                                                            <div
+                                                                        className="bottomtext"
+                                                            >
+                                                                        <div
+                                                                                    className="bottombtns"
+                                                                        >
+                                                                                    <div
+                                                                                                className="ptr btns cancelbtn"
+                                                                                                id="canclebtn"
+                                                                                                onClick={[Function]}
+                                                                                    >
+                                                                                                Cancel
+                                                                                    </div>
+                                                                                    <div
+                                                                                                className="ptr btns importbtn"
+                                                                                                id="importbtn"
+                                                                                                onClick={[Function]}
+                                                                                    >
+                                                                                                Import
+                                                                                    </div>
+                                                                        </div>
+                                                            </div>
+                                                </div>
+                                    </div>
+                        </div>
+            </div>
+</div>,
+          "_debugID": 2,
+          "_renderedOutput": <div
+            className="show"
+>
+            <div
+                        className="modalborder"
+            >
+                        <div>
+                                    <div
+                                                className="innerborder"
+                                    >
+                                                <div
+                                                            className="content"
+                                                >
+                                                            <a
+                                                                        className="ptr boxclose"
+                                                                        id="closexbutton"
+                                                                        onClick={[Function]}
+                                                            >
+                                                                        <span
+                                                                                    className="closeposition"
+                                                                        >
+                                                                                    X
+                                                                        </span>
+                                                            </a>
+                                                            <div
+                                                                        className="toptext"
+                                                            >
+                                                                        Import Terms
+                                                            </div>
+                                                            <span
+                                                                        className="hline hlinetop"
+                                                            />
+                                                            <div
+                                                                        className="middle"
+                                                            >
+                                                                        Upload a CSV or plain text fle containing one term and severity level(1-3) per row separated by a comma. Max 500 lines.
+                                                                        <div
+                                                                                    className="chooseline"
+                                                                        >
+                                                                                    <input
+                                                                                                className="ptr filepicker"
+                                                                                                id="choosefile"
+                                                                                                name="inputfile"
+                                                                                                onChange={[Function]}
+                                                                                                type="file"
+                                                                                                value=""
+                                                                                    />
+                                                                        </div>
+                                                            </div>
+                                                            <span
+                                                                        className="hline hlinebottom"
+                                                            />
+                                                            <div
+                                                                        className="bottomtext"
+                                                            >
+                                                                        <div
+                                                                                    className="bottombtns"
+                                                                        >
+                                                                                    <div
+                                                                                                className="ptr btns cancelbtn"
+                                                                                                id="canclebtn"
+                                                                                                onClick={[Function]}
+                                                                                    >
+                                                                                                Cancel
+                                                                                    </div>
+                                                                                    <div
+                                                                                                className="ptr btns importbtn"
+                                                                                                id="importbtn"
+                                                                                                onClick={[Function]}
+                                                                                    >
+                                                                                                Import
+                                                                                    </div>
+                                                                        </div>
+                                                            </div>
+                                                </div>
+                                    </div>
+                        </div>
+            </div>
+</div>,
+        },
+        "_renderedNodeType": 0,
+        "_rootNodeID": 0,
+        "_topLevelWrapper": null,
+        "_updateBatchNumber": null,
+        "_warnedAboutRefsInRender": false,
+      },
+      "getRenderOutput": [Function],
+      "render": [Function],
+    },
+    "root": [Circular],
+    "unrendered": <ParseCsvModal
+      displayme="show"
+/>,
+  },
+  "unrendered": null,
+}
+`;
+
+exports[`ParseCsvModal Test Button Clicks test handleCancel 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div
+    className="show"
+>
+    <div
+        className="modalborder"
+    >
+        <div>
+            <div
+                className="innerborder"
+            >
+                <div
+                    className="content"
+                >
+                    <a
+                        className="ptr boxclose"
+                        id="closexbutton"
+                        onClick={[Function]}
+                    >
+                        <span
+                            className="closeposition"
+                        >
+                            X
+                        </span>
+                    </a>
+                    <div
+                        className="toptext"
+                    >
+                        Import Terms
+                    </div>
+                    <span
+                        className="hline hlinetop"
+                    />
+                    <div
+                        className="middle"
+                    >
+                        Upload a CSV or plain text fle containing one term and severity level(1-3) per row separated by a comma. Max 500 lines.
+                        <div
+                            className="chooseline"
+                        >
+                            <input
+                                className="ptr filepicker"
+                                id="choosefile"
+                                name="inputfile"
+                                onChange={[Function]}
+                                type="file"
+                                value=""
+                            />
+                        </div>
+                    </div>
+                    <span
+                        className="hline hlinebottom"
+                    />
+                    <div
+                        className="bottomtext"
+                    >
+                        <div
+                            className="bottombtns"
+                        >
+                            <div
+                                className="ptr btns cancelbtn"
+                                id="canclebtn"
+                                onClick={[Function]}
+                            >
+                                Cancel
+                            </div>
+                            <div
+                                className="ptr btns importbtn"
+                                id="importbtn"
+                                onClick={[Function]}
+                            >
+                                Import
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>,
+  "nodes": Array [
+    <div
+      className="show"
+>
+      <div
+            className="modalborder"
+      >
+            <div>
+                  <div
+                        className="innerborder"
+                  >
+                        <div
+                              className="content"
+                        >
+                              <a
+                                    className="ptr boxclose"
+                                    id="closexbutton"
+                                    onClick={[Function]}
+                              >
+                                    <span
+                                          className="closeposition"
+                                    >
+                                          X
+                                    </span>
+                              </a>
+                              <div
+                                    className="toptext"
+                              >
+                                    Import Terms
+                              </div>
+                              <span
+                                    className="hline hlinetop"
+                              />
+                              <div
+                                    className="middle"
+                              >
+                                    Upload a CSV or plain text fle containing one term and severity level(1-3) per row separated by a comma. Max 500 lines.
+                                    <div
+                                          className="chooseline"
+                                    >
+                                          <input
+                                                className="ptr filepicker"
+                                                id="choosefile"
+                                                name="inputfile"
+                                                onChange={[Function]}
+                                                type="file"
+                                                value=""
+                                          />
+                                    </div>
+                              </div>
+                              <span
+                                    className="hline hlinebottom"
+                              />
+                              <div
+                                    className="bottomtext"
+                              >
+                                    <div
+                                          className="bottombtns"
+                                    >
+                                          <div
+                                                className="ptr btns cancelbtn"
+                                                id="canclebtn"
+                                                onClick={[Function]}
+                                          >
+                                                Cancel
+                                          </div>
+                                          <div
+                                                className="ptr btns importbtn"
+                                                id="importbtn"
+                                                onClick={[Function]}
+                                          >
+                                                Import
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <ParseCsvModal
+        displayme="show"
+/>,
+      "_debugID": 26,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": ParseCsvModal {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "handleCancel": [Function],
+        "handleChooseFile": [Function],
+        "handleCloseTheModal": [Function],
+        "handleImport": [Function],
+        "props": Object {
+          "displayme": "show",
+        },
+        "refs": Object {},
+        "state": Object {
+          "displayme": "show",
+          "file_path": "",
+        },
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+        "upload_data": Array [],
+      },
+      "_mountOrder": 4,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div
+          className="show"
+>
+          <div
+                    className="modalborder"
+          >
+                    <div>
+                              <div
+                                        className="innerborder"
+                              >
+                                        <div
+                                                  className="content"
+                                        >
+                                                  <a
+                                                            className="ptr boxclose"
+                                                            id="closexbutton"
+                                                            onClick={[Function]}
+                                                  >
+                                                            <span
+                                                                      className="closeposition"
+                                                            >
+                                                                      X
+                                                            </span>
+                                                  </a>
+                                                  <div
+                                                            className="toptext"
+                                                  >
+                                                            Import Terms
+                                                  </div>
+                                                  <span
+                                                            className="hline hlinetop"
+                                                  />
+                                                  <div
+                                                            className="middle"
+                                                  >
+                                                            Upload a CSV or plain text fle containing one term and severity level(1-3) per row separated by a comma. Max 500 lines.
+                                                            <div
+                                                                      className="chooseline"
+                                                            >
+                                                                      <input
+                                                                                className="ptr filepicker"
+                                                                                id="choosefile"
+                                                                                name="inputfile"
+                                                                                onChange={[Function]}
+                                                                                type="file"
+                                                                                value=""
+                                                                      />
+                                                            </div>
+                                                  </div>
+                                                  <span
+                                                            className="hline hlinebottom"
+                                                  />
+                                                  <div
+                                                            className="bottomtext"
+                                                  >
+                                                            <div
+                                                                      className="bottombtns"
+                                                            >
+                                                                      <div
+                                                                                className="ptr btns cancelbtn"
+                                                                                id="canclebtn"
+                                                                                onClick={[Function]}
+                                                                      >
+                                                                                Cancel
+                                                                      </div>
+                                                                      <div
+                                                                                className="ptr btns importbtn"
+                                                                                id="importbtn"
+                                                                                onClick={[Function]}
+                                                                      >
+                                                                                Import
+                                                                      </div>
+                                                            </div>
+                                                  </div>
+                                        </div>
+                              </div>
+                    </div>
+          </div>
+</div>,
+        "_debugID": 27,
+        "_renderedOutput": <div
+          className="show"
+>
+          <div
+                    className="modalborder"
+          >
+                    <div>
+                              <div
+                                        className="innerborder"
+                              >
+                                        <div
+                                                  className="content"
+                                        >
+                                                  <a
+                                                            className="ptr boxclose"
+                                                            id="closexbutton"
+                                                            onClick={[Function]}
+                                                  >
+                                                            <span
+                                                                      className="closeposition"
+                                                            >
+                                                                      X
+                                                            </span>
+                                                  </a>
+                                                  <div
+                                                            className="toptext"
+                                                  >
+                                                            Import Terms
+                                                  </div>
+                                                  <span
+                                                            className="hline hlinetop"
+                                                  />
+                                                  <div
+                                                            className="middle"
+                                                  >
+                                                            Upload a CSV or plain text fle containing one term and severity level(1-3) per row separated by a comma. Max 500 lines.
+                                                            <div
+                                                                      className="chooseline"
+                                                            >
+                                                                      <input
+                                                                                className="ptr filepicker"
+                                                                                id="choosefile"
+                                                                                name="inputfile"
+                                                                                onChange={[Function]}
+                                                                                type="file"
+                                                                                value=""
+                                                                      />
+                                                            </div>
+                                                  </div>
+                                                  <span
+                                                            className="hline hlinebottom"
+                                                  />
+                                                  <div
+                                                            className="bottomtext"
+                                                  >
+                                                            <div
+                                                                      className="bottombtns"
+                                                            >
+                                                                      <div
+                                                                                className="ptr btns cancelbtn"
+                                                                                id="canclebtn"
+                                                                                onClick={[Function]}
+                                                                      >
+                                                                                Cancel
+                                                                      </div>
+                                                                      <div
+                                                                                className="ptr btns importbtn"
+                                                                                id="importbtn"
+                                                                                onClick={[Function]}
+                                                                      >
+                                                                                Import
+                                                                      </div>
+                                                            </div>
+                                                  </div>
+                                        </div>
+                              </div>
+                    </div>
+          </div>
+</div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <ParseCsvModal
+    displayme="show"
+/>,
+}
+`;
+
+exports[`ParseCsvModal Test Button Clicks test handleChooseFile 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div
+    className="show"
+>
+    <div
+        className="modalborder"
+    >
+        <div>
+            <div
+                className="innerborder"
+            >
+                <div
+                    className="content"
+                >
+                    <a
+                        className="ptr boxclose"
+                        id="closexbutton"
+                        onClick={[Function]}
+                    >
+                        <span
+                            className="closeposition"
+                        >
+                            X
+                        </span>
+                    </a>
+                    <div
+                        className="toptext"
+                    >
+                        Import Terms
+                    </div>
+                    <span
+                        className="hline hlinetop"
+                    />
+                    <div
+                        className="middle"
+                    >
+                        Upload a CSV or plain text fle containing one term and severity level(1-3) per row separated by a comma. Max 500 lines.
+                        <div
+                            className="chooseline"
+                        >
+                            <input
+                                className="ptr filepicker"
+                                id="choosefile"
+                                name="inputfile"
+                                onChange={[Function]}
+                                type="file"
+                                value=""
+                            />
+                        </div>
+                    </div>
+                    <span
+                        className="hline hlinebottom"
+                    />
+                    <div
+                        className="bottomtext"
+                    >
+                        <div
+                            className="bottombtns"
+                        >
+                            <div
+                                className="ptr btns cancelbtn"
+                                id="canclebtn"
+                                onClick={[Function]}
+                            >
+                                Cancel
+                            </div>
+                            <div
+                                className="ptr btns importbtn"
+                                id="importbtn"
+                                onClick={[Function]}
+                            >
+                                Import
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>,
+  "nodes": Array [
+    <div
+      className="show"
+>
+      <div
+            className="modalborder"
+      >
+            <div>
+                  <div
+                        className="innerborder"
+                  >
+                        <div
+                              className="content"
+                        >
+                              <a
+                                    className="ptr boxclose"
+                                    id="closexbutton"
+                                    onClick={[Function]}
+                              >
+                                    <span
+                                          className="closeposition"
+                                    >
+                                          X
+                                    </span>
+                              </a>
+                              <div
+                                    className="toptext"
+                              >
+                                    Import Terms
+                              </div>
+                              <span
+                                    className="hline hlinetop"
+                              />
+                              <div
+                                    className="middle"
+                              >
+                                    Upload a CSV or plain text fle containing one term and severity level(1-3) per row separated by a comma. Max 500 lines.
+                                    <div
+                                          className="chooseline"
+                                    >
+                                          <input
+                                                className="ptr filepicker"
+                                                id="choosefile"
+                                                name="inputfile"
+                                                onChange={[Function]}
+                                                type="file"
+                                                value=""
+                                          />
+                                    </div>
+                              </div>
+                              <span
+                                    className="hline hlinebottom"
+                              />
+                              <div
+                                    className="bottomtext"
+                              >
+                                    <div
+                                          className="bottombtns"
+                                    >
+                                          <div
+                                                className="ptr btns cancelbtn"
+                                                id="canclebtn"
+                                                onClick={[Function]}
+                                          >
+                                                Cancel
+                                          </div>
+                                          <div
+                                                className="ptr btns importbtn"
+                                                id="importbtn"
+                                                onClick={[Function]}
+                                          >
+                                                Import
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <ParseCsvModal
+        displayme="show"
+/>,
+      "_debugID": 24,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": ParseCsvModal {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "handleCancel": [Function],
+        "handleChooseFile": [Function],
+        "handleCloseTheModal": [Function],
+        "handleImport": [Function],
+        "props": Object {
+          "displayme": "show",
+        },
+        "refs": Object {},
+        "state": Object {
+          "displayme": "show",
+          "file_path": "",
+        },
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+        "upload_data": Array [],
+      },
+      "_mountOrder": 3,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div
+          className="show"
+>
+          <div
+                    className="modalborder"
+          >
+                    <div>
+                              <div
+                                        className="innerborder"
+                              >
+                                        <div
+                                                  className="content"
+                                        >
+                                                  <a
+                                                            className="ptr boxclose"
+                                                            id="closexbutton"
+                                                            onClick={[Function]}
+                                                  >
+                                                            <span
+                                                                      className="closeposition"
+                                                            >
+                                                                      X
+                                                            </span>
+                                                  </a>
+                                                  <div
+                                                            className="toptext"
+                                                  >
+                                                            Import Terms
+                                                  </div>
+                                                  <span
+                                                            className="hline hlinetop"
+                                                  />
+                                                  <div
+                                                            className="middle"
+                                                  >
+                                                            Upload a CSV or plain text fle containing one term and severity level(1-3) per row separated by a comma. Max 500 lines.
+                                                            <div
+                                                                      className="chooseline"
+                                                            >
+                                                                      <input
+                                                                                className="ptr filepicker"
+                                                                                id="choosefile"
+                                                                                name="inputfile"
+                                                                                onChange={[Function]}
+                                                                                type="file"
+                                                                                value=""
+                                                                      />
+                                                            </div>
+                                                  </div>
+                                                  <span
+                                                            className="hline hlinebottom"
+                                                  />
+                                                  <div
+                                                            className="bottomtext"
+                                                  >
+                                                            <div
+                                                                      className="bottombtns"
+                                                            >
+                                                                      <div
+                                                                                className="ptr btns cancelbtn"
+                                                                                id="canclebtn"
+                                                                                onClick={[Function]}
+                                                                      >
+                                                                                Cancel
+                                                                      </div>
+                                                                      <div
+                                                                                className="ptr btns importbtn"
+                                                                                id="importbtn"
+                                                                                onClick={[Function]}
+                                                                      >
+                                                                                Import
+                                                                      </div>
+                                                            </div>
+                                                  </div>
+                                        </div>
+                              </div>
+                    </div>
+          </div>
+</div>,
+        "_debugID": 25,
+        "_renderedOutput": <div
+          className="show"
+>
+          <div
+                    className="modalborder"
+          >
+                    <div>
+                              <div
+                                        className="innerborder"
+                              >
+                                        <div
+                                                  className="content"
+                                        >
+                                                  <a
+                                                            className="ptr boxclose"
+                                                            id="closexbutton"
+                                                            onClick={[Function]}
+                                                  >
+                                                            <span
+                                                                      className="closeposition"
+                                                            >
+                                                                      X
+                                                            </span>
+                                                  </a>
+                                                  <div
+                                                            className="toptext"
+                                                  >
+                                                            Import Terms
+                                                  </div>
+                                                  <span
+                                                            className="hline hlinetop"
+                                                  />
+                                                  <div
+                                                            className="middle"
+                                                  >
+                                                            Upload a CSV or plain text fle containing one term and severity level(1-3) per row separated by a comma. Max 500 lines.
+                                                            <div
+                                                                      className="chooseline"
+                                                            >
+                                                                      <input
+                                                                                className="ptr filepicker"
+                                                                                id="choosefile"
+                                                                                name="inputfile"
+                                                                                onChange={[Function]}
+                                                                                type="file"
+                                                                                value=""
+                                                                      />
+                                                            </div>
+                                                  </div>
+                                                  <span
+                                                            className="hline hlinebottom"
+                                                  />
+                                                  <div
+                                                            className="bottomtext"
+                                                  >
+                                                            <div
+                                                                      className="bottombtns"
+                                                            >
+                                                                      <div
+                                                                                className="ptr btns cancelbtn"
+                                                                                id="canclebtn"
+                                                                                onClick={[Function]}
+                                                                      >
+                                                                                Cancel
+                                                                      </div>
+                                                                      <div
+                                                                                className="ptr btns importbtn"
+                                                                                id="importbtn"
+                                                                                onClick={[Function]}
+                                                                      >
+                                                                                Import
+                                                                      </div>
+                                                            </div>
+                                                  </div>
+                                        </div>
+                              </div>
+                    </div>
+          </div>
+</div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <ParseCsvModal
+    displayme="show"
+/>,
+}
+`;
+
+exports[`ParseCsvModal Test Button Clicks test handleImport 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div
+    className="show"
+>
+    <div
+        className="modalborder"
+    >
+        <div>
+            <div
+                className="innerborder"
+            >
+                <div
+                    className="content"
+                >
+                    <a
+                        className="ptr boxclose"
+                        id="closexbutton"
+                        onClick={[Function]}
+                    >
+                        <span
+                            className="closeposition"
+                        >
+                            X
+                        </span>
+                    </a>
+                    <div
+                        className="toptext"
+                    >
+                        Import Terms
+                    </div>
+                    <span
+                        className="hline hlinetop"
+                    />
+                    <div
+                        className="middle"
+                    >
+                        Upload a CSV or plain text fle containing one term and severity level(1-3) per row separated by a comma. Max 500 lines.
+                        <div
+                            className="chooseline"
+                        >
+                            <input
+                                className="ptr filepicker"
+                                id="choosefile"
+                                name="inputfile"
+                                onChange={[Function]}
+                                type="file"
+                                value=""
+                            />
+                        </div>
+                    </div>
+                    <span
+                        className="hline hlinebottom"
+                    />
+                    <div
+                        className="bottomtext"
+                    >
+                        <div
+                            className="bottombtns"
+                        >
+                            <div
+                                className="ptr btns cancelbtn"
+                                id="canclebtn"
+                                onClick={[Function]}
+                            >
+                                Cancel
+                            </div>
+                            <div
+                                className="ptr btns importbtn"
+                                id="importbtn"
+                                onClick={[Function]}
+                            >
+                                Import
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>,
+  "nodes": Array [
+    <div
+      className="show"
+>
+      <div
+            className="modalborder"
+      >
+            <div>
+                  <div
+                        className="innerborder"
+                  >
+                        <div
+                              className="content"
+                        >
+                              <a
+                                    className="ptr boxclose"
+                                    id="closexbutton"
+                                    onClick={[Function]}
+                              >
+                                    <span
+                                          className="closeposition"
+                                    >
+                                          X
+                                    </span>
+                              </a>
+                              <div
+                                    className="toptext"
+                              >
+                                    Import Terms
+                              </div>
+                              <span
+                                    className="hline hlinetop"
+                              />
+                              <div
+                                    className="middle"
+                              >
+                                    Upload a CSV or plain text fle containing one term and severity level(1-3) per row separated by a comma. Max 500 lines.
+                                    <div
+                                          className="chooseline"
+                                    >
+                                          <input
+                                                className="ptr filepicker"
+                                                id="choosefile"
+                                                name="inputfile"
+                                                onChange={[Function]}
+                                                type="file"
+                                                value=""
+                                          />
+                                    </div>
+                              </div>
+                              <span
+                                    className="hline hlinebottom"
+                              />
+                              <div
+                                    className="bottomtext"
+                              >
+                                    <div
+                                          className="bottombtns"
+                                    >
+                                          <div
+                                                className="ptr btns cancelbtn"
+                                                id="canclebtn"
+                                                onClick={[Function]}
+                                          >
+                                                Cancel
+                                          </div>
+                                          <div
+                                                className="ptr btns importbtn"
+                                                id="importbtn"
+                                                onClick={[Function]}
+                                          >
+                                                Import
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <ParseCsvModal
+        displayme="show"
+/>,
+      "_debugID": 28,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": ParseCsvModal {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "handleCancel": [Function],
+        "handleChooseFile": [Function],
+        "handleCloseTheModal": [Function],
+        "handleImport": [Function],
+        "props": Object {
+          "displayme": "show",
+        },
+        "refs": Object {},
+        "state": Object {
+          "displayme": "show",
+          "file_path": "",
+        },
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+        "upload_data": Array [],
+      },
+      "_mountOrder": 5,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div
+          className="show"
+>
+          <div
+                    className="modalborder"
+          >
+                    <div>
+                              <div
+                                        className="innerborder"
+                              >
+                                        <div
+                                                  className="content"
+                                        >
+                                                  <a
+                                                            className="ptr boxclose"
+                                                            id="closexbutton"
+                                                            onClick={[Function]}
+                                                  >
+                                                            <span
+                                                                      className="closeposition"
+                                                            >
+                                                                      X
+                                                            </span>
+                                                  </a>
+                                                  <div
+                                                            className="toptext"
+                                                  >
+                                                            Import Terms
+                                                  </div>
+                                                  <span
+                                                            className="hline hlinetop"
+                                                  />
+                                                  <div
+                                                            className="middle"
+                                                  >
+                                                            Upload a CSV or plain text fle containing one term and severity level(1-3) per row separated by a comma. Max 500 lines.
+                                                            <div
+                                                                      className="chooseline"
+                                                            >
+                                                                      <input
+                                                                                className="ptr filepicker"
+                                                                                id="choosefile"
+                                                                                name="inputfile"
+                                                                                onChange={[Function]}
+                                                                                type="file"
+                                                                                value=""
+                                                                      />
+                                                            </div>
+                                                  </div>
+                                                  <span
+                                                            className="hline hlinebottom"
+                                                  />
+                                                  <div
+                                                            className="bottomtext"
+                                                  >
+                                                            <div
+                                                                      className="bottombtns"
+                                                            >
+                                                                      <div
+                                                                                className="ptr btns cancelbtn"
+                                                                                id="canclebtn"
+                                                                                onClick={[Function]}
+                                                                      >
+                                                                                Cancel
+                                                                      </div>
+                                                                      <div
+                                                                                className="ptr btns importbtn"
+                                                                                id="importbtn"
+                                                                                onClick={[Function]}
+                                                                      >
+                                                                                Import
+                                                                      </div>
+                                                            </div>
+                                                  </div>
+                                        </div>
+                              </div>
+                    </div>
+          </div>
+</div>,
+        "_debugID": 29,
+        "_renderedOutput": <div
+          className="show"
+>
+          <div
+                    className="modalborder"
+          >
+                    <div>
+                              <div
+                                        className="innerborder"
+                              >
+                                        <div
+                                                  className="content"
+                                        >
+                                                  <a
+                                                            className="ptr boxclose"
+                                                            id="closexbutton"
+                                                            onClick={[Function]}
+                                                  >
+                                                            <span
+                                                                      className="closeposition"
+                                                            >
+                                                                      X
+                                                            </span>
+                                                  </a>
+                                                  <div
+                                                            className="toptext"
+                                                  >
+                                                            Import Terms
+                                                  </div>
+                                                  <span
+                                                            className="hline hlinetop"
+                                                  />
+                                                  <div
+                                                            className="middle"
+                                                  >
+                                                            Upload a CSV or plain text fle containing one term and severity level(1-3) per row separated by a comma. Max 500 lines.
+                                                            <div
+                                                                      className="chooseline"
+                                                            >
+                                                                      <input
+                                                                                className="ptr filepicker"
+                                                                                id="choosefile"
+                                                                                name="inputfile"
+                                                                                onChange={[Function]}
+                                                                                type="file"
+                                                                                value=""
+                                                                      />
+                                                            </div>
+                                                  </div>
+                                                  <span
+                                                            className="hline hlinebottom"
+                                                  />
+                                                  <div
+                                                            className="bottomtext"
+                                                  >
+                                                            <div
+                                                                      className="bottombtns"
+                                                            >
+                                                                      <div
+                                                                                className="ptr btns cancelbtn"
+                                                                                id="canclebtn"
+                                                                                onClick={[Function]}
+                                                                      >
+                                                                                Cancel
+                                                                      </div>
+                                                                      <div
+                                                                                className="ptr btns importbtn"
+                                                                                id="importbtn"
+                                                                                onClick={[Function]}
+                                                                      >
+                                                                                Import
+                                                                      </div>
+                                                            </div>
+                                                  </div>
+                                        </div>
+                              </div>
+                    </div>
+          </div>
+</div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <ParseCsvModal
+    displayme="show"
+/>,
+}
+`;
